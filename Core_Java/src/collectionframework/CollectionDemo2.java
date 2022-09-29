@@ -17,6 +17,17 @@ List<String> al=new ArrayList<>();
 		al.add("Raju");
 		al.add(2, "Ravi");
 		//al.add("Dinesh");
+		al.add("Raju");
+	 //   al.set(3, "Hem");//to replace 
+		
+	//	al.sort(String.CASE_INSENSITIVE_ORDER);//to print in alphabet order
+		
+		
+		
+	
+		
+		//System.out.println(al.subList(2, 4));
+		
 
 List<String> al1=new ArrayList<>();
 		
@@ -30,7 +41,9 @@ List<String> al1=new ArrayList<>();
 		
 	//	System.out.println(al.isEmpty());
 		
-		System.out.println(al.lastIndexOf("Raju"));
+	//	System.out.println(al.lastIndexOf("Raju"));
+	//	System.out.println(al.indexOf("Raju"));
+	//	System.out.println(al.contains("Vamsi"));
 
 	}
 
